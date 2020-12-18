@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+
+<title>Quiz Master </title>
+<link rel="icon" type="image/jpeg" href="./icon.jpeg">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>Quiz Master</h1>
+<div class="info">
+<h2>Details</h2>
+<form id="detailsForm">
+<label>Name</label>
+<input type="text" name="name">
+<label>Email</label>
+<input type="email" name="email">
+<label>Category of questions</label>
+<select>
+<option value="">Select</option>
+<option value="0">Computer Sci.</option>
+<option value="1">Maths</option>
+<option value="2">Science</option>
+<option value="3">General Knowlege</option>
+</select>
+</form>
+<p><button class="">Submit</button></p>
+</div>
+
+<div class="rules">
+<h2>Instructions</h2>
+<ul>
+<li>1. There will be 10 questions in total.</li>
+<li>2. Each question will carry two marks .</li>
+<li>3. There will be no negative marking.</li>
+<li>4. There will be no clock running so take as much time as you want.</li>
+<li>5. On answering a question press <span>Next</span>,  answer will be saved and you will be directed to next question.</li>
+<li>6. You will not be allowed to go to previous question so be very careful.</li>
+<li>7. When you are  ready press start.
+</ul>
+<p>
+Best of Luck !!<br>
+<button class="start">Start</button>
+</p>
+</div>
+<div class="ques-box">
+<h2>Questions</h2>
+<p class="ques">Q1. Who invented java ?</p>
+<form id="options">
+<input type="radio" value="1" id="1" name="answer"><label for="1" class="option">James Gosling</label><br>
+<input type="radio" value="2"  id="2" name="answer"><label for="2" class="option">Adam Richie</label><br>
+<input type="radio" value="3"  id="3"  name="answer"><label for="3" class="option">Denis Richie</label><br>
+<input type="radio" value="4"  id="4" name="answer"><label for="4" class="option">John Stroustrup</label><br>
+</form>
+<p class="next"><button class="btn">Next</button><br><button class="submitBtn" style="display: none;">Submit</button></p>
+</div>
+<div class="result-box">
+ <h2> Hi! Sahil, Here's your result</h2>
+ <p>
+ 
+ <span>Name: Sahil</span><br>
+ <span>Email: Sahilkumar</span><br>
+ <span>unanswered</span><br>
+ <span>wrong</span><br>
+ <span>correct</span><br>
+ 
+ <span> your score: 10</span><br>
+ <span class="msg">Better Luck next time</span>
+ <br>
+ <a href="./index.html" ><button>Ok!</button></a>
+ </p>
+
+</div>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
